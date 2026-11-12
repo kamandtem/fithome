@@ -1,0 +1,6 @@
+<resources>
+    <color name="background_top">#F7F9FD</color>
+    <color name="background_mid">#EEF1F8</color>
+    <color name="background_bottom">#E9EDF5</color>
+    <color name="splash_background">#F7F9FD</color>
+</resources>

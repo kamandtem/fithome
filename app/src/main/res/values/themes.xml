@@ -1,0 +1,15 @@
+<resources>
+    <style name="Theme.FitHome" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowBackground">@color/splash_background</item>
+    </style>
+
+    <!-- Splash screen shown while the app starts (AndroidX SplashScreen API, works on API 26+). -->
+    <style name="Theme.FitHome.Starting" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/splash_background</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_splash</item>
+        <item name="postSplashScreenTheme">@style/Theme.FitHome</item>
+    </style>
+</resources>
